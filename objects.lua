@@ -230,7 +230,7 @@ return { -- docs 2.0.26 objects[ClassName]
                 Camera = {
                     Inherits = "Dynamic",
                     Properties = {
-                        Forward  = "Vecotr3",
+                        Forward  = "Vector3",
                         Mode = "CameraMode",
                         FOV = "number",
                         ClipThroughWalls = "boolean",
@@ -310,7 +310,7 @@ return { -- docs 2.0.26 objects[ClassName]
                         AbsoluteSize  = "Vector2"
                     }
                 },
-                image3D = {
+                Image3D = {
                     Inherits = "Dynamic",
                     Properties = {
                         Image = "ImageAsset",
@@ -376,8 +376,8 @@ return { -- docs 2.0.26 objects[ClassName]
                         Amount = "number",
                         Explosiveness = "number",
                         Gravity = "Vector3",
-                        VelocityDirection = "Vecotr3",
-                        InitialVelocity = "Vecotr3",
+                        VelocityDirection = "Vector3",
+                        InitialVelocity = "Vector3",
                         StartRotation = "NumberRange",
                         AngularVelocity = "NumberRange",
                         AngularVelocityOverLifetime = "NumberSeries",
@@ -407,7 +407,7 @@ return { -- docs 2.0.26 objects[ClassName]
                         BlendMode = "BlendMode",
                         Shaded = "boolean",
                         EmissionShape = "ParticleEmissionShape",
-                        EmissionShapeScale = "Vecotr3",
+                        EmissionShapeScale = "Vector3",
                         SimulationSpace = "ParticleSimulationSpace",
                         Orientation = "ParticleOrientation",
                         IsPlaying = "boolean",
@@ -446,10 +446,9 @@ return { -- docs 2.0.26 objects[ClassName]
                     NPC = {
                         Inherits = "Physical",
                         Properties = {
-                            Velocity = "Vecotr3",
                             SeatOffset = "Vector3",
                             Health = "number",
-                            MexHealth = "number",
+                            MaxHealth = "number",
                             JumpPower = "number",
                             WalkSpeed = "number",
                             UseNametag = "boolean",
@@ -467,7 +466,8 @@ return { -- docs 2.0.26 objects[ClassName]
                             IsOnCeiling = "boolean",
                             NavDestinationDistance = "number",
                             NavDestinationReached = "boolean",
-                            NavDestinationValid = "boolean"
+                            NavDestinationValid = "boolean",
+                            Vertical = "Vector3",
                         }
                     },
                         Player = {
@@ -613,7 +613,7 @@ return { -- docs 2.0.26 objects[ClassName]
                         UseRichText = "boolean"
                     }
                 },
-            Environmeant = {
+            Environment = {
                 Inherits = "Instance",
                 Properties = {
                     CurrentCamera = "Camera",
@@ -621,10 +621,6 @@ return { -- docs 2.0.26 objects[ClassName]
                     PartDestroyHeight = "number",
                     AutoGenerateNavMesh = "boolean"
                 }
-            },
-            Environmeant = {
-                Inherits = "Instance",
-                Properties = {}
             },
             FilterService = {
                 Inherits = "Instance",
@@ -707,10 +703,6 @@ return { -- docs 2.0.26 objects[ClassName]
                 Inherits = "Instance",
                 Properties = {}
             },
-            InsertService = {
-                Inherits = "Instance",
-                Properties = {}
-            },
             MissingInstance = {
                 Inherits = "Instance",
                 Properties = {}
@@ -731,7 +723,7 @@ return { -- docs 2.0.26 objects[ClassName]
                     LocalPlayer = "Player",
                     PlayerCollisionEnabled = "boolean",
                     UseServerAuthority = "boolean",
-                    PlayersCount = "boolean"
+                    PlayersCount = "number"
                 }
             },
             PreferencesService = {
@@ -757,7 +749,7 @@ return { -- docs 2.0.26 objects[ClassName]
                 Properties = {
                     Source = "string",
                     IsEnabled = "boolean",
-                    LinkedScript = "FlieLinkAsset",
+                    LinkedScript = "FileLinkAsset",
                     Compatibility = "boolean"
                 }
             },
@@ -828,7 +820,7 @@ return { -- docs 2.0.26 objects[ClassName]
                 Inherits = "Instance",
                 Properties = {
                     DisplayName = "string",
-                    Visible = "string"
+                    Visible = "boolean"
                 }
             },
             Stats = {
@@ -903,7 +895,7 @@ return { -- docs 2.0.26 objects[ClassName]
                         Inherits = "UIContainer",
                         Properties = {
                             Spacing = "number",
-                            ChildAlignmeant = "UILayoutAlignment"
+                            ChildAlignment = "UILayoutAlignment"
                         } 
                     },
                         UIFlowLayout = {
@@ -1016,10 +1008,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },  
             ValueBase = {
                 Inherits = "Instance",
-                Properties = {
-                    Thickness = "UIScale",
-                    Color = "Color"
-                }
+                Properties = {}
             },  
                 BoolValue = {
                     Inherits = "ValueBase",
@@ -1087,7 +1076,7 @@ return { -- docs 2.0.26 objects[ClassName]
                         Value = "Vector3"
                     }
                 }, 
-            Wald = {
+            Weld = {
                 Inherits = "Instance",
                 Properties = {
                     Part0 = "Instance",
