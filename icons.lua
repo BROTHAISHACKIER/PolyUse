@@ -86,4 +86,5 @@ return {
 	--not polytoria
 	ArrowClosed = 263646,
 	ArrowOpen = 263648,
+	Tick = 263838,
 }
