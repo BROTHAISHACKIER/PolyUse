@@ -17,7 +17,7 @@ return { -- docs 2.0.26 objects[ClassName]
                 Inherits = "BaseAsset",
                 Properties = {
                     LinkedID = "string"
-                },
+                }
             },
             ResourceAsset = {
                 Inherits = "BaseAsset",
@@ -108,6 +108,7 @@ return { -- docs 2.0.26 objects[ClassName]
         },
             AchievementsService = {
                 Inherits = "Instance",
+								Icon = "Achievements",
                 Properties = {
                     UseAchievementSound = "boolean",
                     NotifyAchievements = "boolean"
@@ -121,6 +122,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             AssetsService = {
                 Inherits = "Instance",
+								Icon = "Assets",
                 Properties = {}
             },
             BindableEvent = {
@@ -145,6 +147,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             CaptureService = {
                 Inherits = "Instance",
+								Icon = "Capture",
                 Properties = {
                     OnCooldown = "boolean",
                     DefaultCaptureOverlay = "UIField",
@@ -153,6 +156,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             ChatService = {
                 Inherits = "Instance",
+								Icon = "Chat",
                 Properties = {
                     ChatPredicate = "function"
                 }
@@ -165,6 +169,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             CoreUIService = {
                 Inherits = "Instance",
+								Icon = "CoreUI",
                 Properties = {
                     TopInset = "number",
                     CtrlLockCursor =  "CtrlLockCursor",
@@ -186,6 +191,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             CreatorContextService = {
                 Inherits = "Instance",
+								Icon = "CreatorContext",
                 Properties = {}
             },
             CreatorGUI = {
@@ -202,6 +208,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             DatastoreService = {
                 Inherits = "Instance",
+								Icon = "Datastore",
                 Properties = {}
             },
             Dynamic = {
@@ -624,6 +631,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             FilterService = {
                 Inherits = "Instance",
+								Icon = "Filter",
                 Properties = {}
             },
             Folder = {
@@ -656,18 +664,22 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             HookService = {
                 Inherits = "Instance",
+								Icon = "Hook",
                 Properties = {}
             },
             HttpService = {
                 Inherits = "Instance",
+								Icon = "Http",
                 Properties = {}
             },
             IOService = {
                 Inherits = "Instance",
+								Icon = "IO",
                 Properties = {}
             },
             InputService = {
                 Inherits = "Instance",
+								Icon = "Input",
                 Properties = {
                     IsWindowFocused = "boolean",
                     IsTouchscreen = "boolean",
@@ -685,6 +697,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             InsertService = {
                 Inherits = "Instance",
+								Icon = "Insert",
                 Properties = {}
             },
             Lighting = {
@@ -728,6 +741,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             PreferencesService = {
                 Inherits = "Instance",
+								Icon = "Preferences",
                 Properties = {
                     CameraSensitivity = "number",
                     UiScale = "number"
@@ -735,6 +749,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             PresenceService = {
                 Inherits = "Instance",
+								Icon = "Presence",
                 Properties = {
                     State = "string",
                     CoverImage = "PTImageAsset"
@@ -742,6 +757,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             PurchasesService = {
                 Inherits = "Instance",
+								Icon = "Purchases",
                 Properties = {}
             },
             Script = {
@@ -755,18 +771,22 @@ return { -- docs 2.0.26 objects[ClassName]
             },
                 ClientScript = {
                     Inherits = "Script",
+										Icon = "LocalScript",
                     Properties = {}
                 },
                 ModuleScript = {
                     Inherits = "Script",
+										Icon = "ModuleScript",
                     Properties = {}
                 },
                 ServerScript = {
                     Inherits = "Script",
+										Icon = "ScriptInstance",
                     Properties = {}
                 },
             ScriptService = {
                 Inherits = "Instance",
+								Icon = "ScriptService",
                 Properties = {}
             },
             Sky = {
@@ -814,6 +834,7 @@ return { -- docs 2.0.26 objects[ClassName]
                 },
             SocialService = {
                 Inherits = "Instance",
+								Icon = "Social",
                 Properties = {}
             },
             Stat = {
@@ -840,6 +861,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             TweenService = {
                 Inherits = "Instance",
+								Icon = "Tween",
                 Properties = {}
             },
             UIAspectRatioRestraint = {
@@ -1086,6 +1108,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             World = {
                 Inherits = "Instance",
+								Icon = "Game",
                 Properties = {
                     IsLocalTest = "boolean",
                     IsLegacyWorld = "boolean",
@@ -1098,6 +1121,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             WorldsService = {
                 Inherits = "Instance",
+								Icon = "Worlds",
                 Properties = {}
             },
 }
