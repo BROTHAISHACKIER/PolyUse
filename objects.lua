@@ -662,6 +662,45 @@ return { -- docs 2.0.26 objects[ClassName]
                 Inherits = "Instance",
                 Properties = {}
             },
+							Hidden = {
+	                Inherits = "HiddenBase",
+	                Properties = {}
+	            },
+							Inventory = {
+	                Inherits = "HiddenBase",
+									Icon = "Backpack",
+	                Properties = {}
+	            },
+							PlayerDefaults = {
+	                Inherits = "HiddenBase",
+	                Properties = {
+										MaxHealth = "number",
+										WalkSpeed = "number",
+										SprintSpeed = "number",
+										JumpPower = "number",
+										RespwanTime = "number",
+										ChatColor = "Color",
+										ChatColorsEnabled = "boolean",
+										CanMove = "boolean",
+										StaminaBurn = "number",
+										UseStamina = "boolean",
+										StaminaEnabled = "boolean",
+										Stamina = "number",
+										MaxStamina = "number",
+										StaminaRegen = "number",
+										KeepInventory = "boolean",
+										UseHeadTurning = "boolean",
+										UseBubbleChat = "boolean",
+										AutoLoadAppearance = "boolean",
+										LoadAppearanceTools = "boolean",
+										MovementMode = "PlayerMovementMode"
+									}
+	            },
+							ServerHidden = {
+	                Inherits = "HiddenBase",
+	                Properties = {}
+	            },
+							
             HookService = {
                 Inherits = "Instance",
 								Icon = "Hook",
