@@ -108,7 +108,7 @@ return { -- docs 2.0.26 objects[ClassName]
         },
             AchievementsService = {
                 Inherits = "Instance",
-								Icon = "Achievements",
+				Icon = "Achievements",
                 Properties = {
                     UseAchievementSound = "boolean",
                     NotifyAchievements = "boolean"
@@ -122,7 +122,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             AssetsService = {
                 Inherits = "Instance",
-								Icon = "Assets",
+				Icon = "Assets",
                 Properties = {}
             },
             BindableEvent = {
@@ -147,7 +147,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             CaptureService = {
                 Inherits = "Instance",
-								Icon = "Capture",
+				Icon = "Capture",
                 Properties = {
                     OnCooldown = "boolean",
                     DefaultCaptureOverlay = "UIField",
@@ -156,7 +156,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             ChatService = {
                 Inherits = "Instance",
-								Icon = "Chat",
+				Icon = "Chat",
                 Properties = {
                     ChatPredicate = "function"
                 }
@@ -169,7 +169,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             CoreUIService = {
                 Inherits = "Instance",
-								Icon = "CoreUI",
+				Icon = "CoreUI",
                 Properties = {
                     TopInset = "number",
                     CtrlLockCursor =  "CtrlLockCursor",
@@ -191,7 +191,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             CreatorContextService = {
                 Inherits = "Instance",
-								Icon = "CreatorContext",
+				Icon = "CreatorContext",
                 Properties = {}
             },
             CreatorGUI = {
@@ -208,7 +208,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             DatastoreService = {
                 Inherits = "Instance",
-								Icon = "Datastore",
+				Icon = "Datastore",
                 Properties = {}
             },
             Dynamic = {
@@ -631,7 +631,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             FilterService = {
                 Inherits = "Instance",
-								Icon = "Filter",
+				Icon = "Filter",
                 Properties = {}
             },
             Folder = {
@@ -668,7 +668,7 @@ return { -- docs 2.0.26 objects[ClassName]
 	            },
 							Inventory = {
 	                Inherits = "HiddenBase",
-									Icon = "Backpack",
+					Icon = "Backpack",
 	                Properties = {}
 	            },
 							PlayerDefaults = {
@@ -703,22 +703,22 @@ return { -- docs 2.0.26 objects[ClassName]
 							
             HookService = {
                 Inherits = "Instance",
-								Icon = "Hook",
+				Icon = "Hook",
                 Properties = {}
             },
             HttpService = {
                 Inherits = "Instance",
-								Icon = "Http",
+				Icon = "Http",
                 Properties = {}
             },
             IOService = {
                 Inherits = "Instance",
-								Icon = "IO",
+				Icon = "IO",
                 Properties = {}
             },
             InputService = {
                 Inherits = "Instance",
-								Icon = "Input",
+				Icon = "Input",
                 Properties = {
                     IsWindowFocused = "boolean",
                     IsTouchscreen = "boolean",
@@ -736,7 +736,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             InsertService = {
                 Inherits = "Instance",
-								Icon = "Insert",
+				Icon = "Insert",
                 Properties = {}
             },
             Lighting = {
@@ -780,7 +780,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             PreferencesService = {
                 Inherits = "Instance",
-								Icon = "Preferences",
+				Icon = "Preferences",
                 Properties = {
                     CameraSensitivity = "number",
                     UiScale = "number"
@@ -788,7 +788,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             PresenceService = {
                 Inherits = "Instance",
-								Icon = "Presence",
+				Icon = "Presence",
                 Properties = {
                     State = "string",
                     CoverImage = "PTImageAsset"
@@ -796,7 +796,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             PurchasesService = {
                 Inherits = "Instance",
-								Icon = "Purchases",
+				Icon = "Purchases",
                 Properties = {}
             },
             Script = {
@@ -810,22 +810,22 @@ return { -- docs 2.0.26 objects[ClassName]
             },
                 ClientScript = {
                     Inherits = "Script",
-										Icon = "LocalScript",
+					Icon = "LocalScript",
                     Properties = {}
                 },
                 ModuleScript = {
                     Inherits = "Script",
-										Icon = "ModuleScript",
+					Icon = "ModuleScript",
                     Properties = {}
                 },
                 ServerScript = {
                     Inherits = "Script",
-										Icon = "ScriptInstance",
+					Icon = "ScriptInstance",
                     Properties = {}
                 },
             ScriptService = {
                 Inherits = "Instance",
-								Icon = "ScriptService",
+				Icon = "ScriptService",
                 Properties = {}
             },
             Sky = {
@@ -873,7 +873,7 @@ return { -- docs 2.0.26 objects[ClassName]
                 },
             SocialService = {
                 Inherits = "Instance",
-								Icon = "Social",
+				Icon = "Social",
                 Properties = {}
             },
             Stat = {
@@ -900,7 +900,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             TweenService = {
                 Inherits = "Instance",
-								Icon = "Tween",
+				Icon = "Tween",
                 Properties = {}
             },
             UIAspectRatioRestraint = {
@@ -1147,7 +1147,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             World = {
                 Inherits = "Instance",
-								Icon = "Game",
+				Icon = "Game",
                 Properties = {
                     IsLocalTest = "boolean",
                     IsLegacyWorld = "boolean",
@@ -1160,7 +1160,7 @@ return { -- docs 2.0.26 objects[ClassName]
             },
             WorldsService = {
                 Inherits = "Instance",
-								Icon = "Worlds",
+				Icon = "Worlds",
                 Properties = {}
             },
 }
