@@ -83,5 +83,7 @@ return {
     Vector2Value = 263327,
     Vector3 = 263328,
     Vector3Value = 263329,
+	--not polytoria
+    ArrowClosed = 263646,
+    ArrowOpen = 263648,
 }
-
