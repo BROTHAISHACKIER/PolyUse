@@ -933,7 +933,7 @@ return { -- docs 2.0.26 objects[ClassName]
                     PivotPoint = "Vector2",
                     Scale = "Vector2",
                     Visible = "boolean",
-                    MaskMode = "Vector2",
+                    MaskMode = "UIMaskMode",
                     IgnoreMouse = "boolean",
                     ZIndex = "number",
                     AbsolutePosition = "Vector2",
